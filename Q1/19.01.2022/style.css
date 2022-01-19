@@ -6,7 +6,12 @@
 
 h1{
 color: rgb(3, 162, 202);
-text-align: center;websitest
+text-align: center;
+}
+
+p {
+    color: rgb(3, 162, 202);
+    text-align: center;
 }
 img{
     width: 35rem;
