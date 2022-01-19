@@ -6,6 +6,7 @@
 
 h1{
 color: rgb(3, 162, 202);
+text-align: center;websitest
 }
 img{
     width: 35rem;
@@ -24,12 +25,13 @@ img:hover{
     position: absolute;
     top: 50%;
     left: 25%;
-    z-index: -1;
+    transition: 0.3s;
 }
 
 #img1:hover{
     transform: rotate(0deg);
     z-index: 1;
+    transition: 0.3s;
    
 }
 
@@ -42,12 +44,13 @@ img:hover{
     position: absolute;
     top: 20%;
     left: 5%;
-    z-index: -1;
+    transition: 0.3s;
 }
 
 #img2:hover{
     transform: rotate(0deg);
     z-index: 1;
+    transition: 0.3s;
 }
 
 #img3{
@@ -58,10 +61,11 @@ img:hover{
     position: absolute;
     top: 10%;
     left: 20%;
-    z-index: -1;
+    transition: 0.3s;
 }
 
 #img3:hover{
     transform: rotate(0deg);
     z-index: 1;
+    transition: 0.3s;
 }
