@@ -1,0 +1,61 @@
+h1{
+color: rgb(3, 162, 202);
+}
+img{
+    width: 35rem;
+   filter: grayscale();
+    border: 5px rgb(8, 186, 199) solid;
+}
+img:hover{
+    filter: grayscale(0);
+}
+
+#img1{
+   
+    padding: 10px 10px 55px 10px;
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: -1;
+}
+
+#img1:hover{
+    transform: rotate(0deg);
+    z-index: 1;
+   
+}
+
+
+#img2{
+   
+    padding: 20px 20px 55px 150px;
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: -1;
+}
+
+#img2:hover{
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+#img3{
+   
+    padding: 10px 60px 55px 250px;
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: -1;
+}
+
+#img3:hover{
+    transform: rotate(0deg);
+    z-index: 1;
+}
