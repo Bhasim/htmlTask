@@ -3,24 +3,34 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-image: url(./img/img3-2.jpg);
+}
 h1{
 color: rgb(3, 162, 202);
 text-align: center;
+font-size: 65px;
 }
 
 p {
     color: rgb(3, 162, 202);
     text-align: center;
+    font-size: 40px;
 }
 img{
-    width: 35rem;
+    width: 45rem;
    filter: grayscale();
     border: 5px rgb(8, 186, 199) solid;
+   
+    
 }
 img:hover{
     filter: grayscale(0);
 }
+
+
+
+/* The worst kind of DRY code */
 
 #img1{
    
@@ -74,3 +84,14 @@ img:hover{
     z-index: 1;
     transition: 0.3s;
 }
+
+
+/* the assignment on 20-01-2022 */
+
+p::before {
+    content: "⛵";  
+}
+  
+p::after {
+    content: "🌅";
+  }
