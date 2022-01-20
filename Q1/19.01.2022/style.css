@@ -3,9 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(./img/img3-2.jpg);
-}
+
 h1{
 color: rgb(3, 162, 202);
 text-align: center;
@@ -84,14 +82,3 @@ img:hover{
     z-index: 1;
     transition: 0.3s;
 }
-
-
-/* the assignment on 20-01-2022 */
-
-p::before {
-    content: "⛵";  
-}
-  
-p::after {
-    content: "🌅";
-  }
